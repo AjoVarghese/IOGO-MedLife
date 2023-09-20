@@ -1,0 +1,29 @@
+.tasks-div {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.tasks-div span {
+    margin-top: .3rem;
+    display: flex;
+}
+
+.tasks-div h1 {
+    margin: 0;
+    display: flex;
+}
+
+.tasks-div .options {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: .6rem;
+}
+
+.tasks-div .options p {
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-bottom: 0;
+}
+
+.options p.active {
+    border-bottom: 2px solid #04095A;
+}

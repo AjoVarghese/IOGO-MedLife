@@ -1,0 +1,153 @@
+.table-filters {
+  padding: 2rem;
+  display: flex;
+}
+
+.search-div {
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.search-div img {
+  height: 2.5rem;
+  margin-left: 0.5rem;
+}
+
+.search-div input {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  width: 85%;
+  background: transparent;
+}
+
+.date-inp {
+  margin-right: 0.5rem;
+  margin-left: 1.5rem;
+  width: 12%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.date-inp img {
+  height: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.date-inp input {
+  padding: 0.2rem;
+  border: none;
+  outline: none;
+  width: 85%;
+  background: transparent;
+}
+
+.apply button {
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  background-color: #04095a;
+  color: white;
+  border: none;
+}
+
+.reset button {
+  padding: 0.9rem;
+  width: 8rem;
+  border-radius: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border: 1px solid #377bff;
+  color: #377bff;
+  background-color: white;
+}
+
+.filter-div button {
+  padding: 0.7rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 24rem;
+  border: 1px solid #04095a;
+  background-color: white;
+  color: #04095a;
+  cursor: pointer;
+}
+
+.date {
+  padding: 1rem;
+  display: flex;
+}
+
+.card-div {
+  margin: 0rem 1rem;
+  padding: 1.5rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.5rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.profile-details {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile-details h3 {
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.app-id {
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.assessment {
+  margin-top: 2rem;
+  color: cornflowerblue;
+}
+
+.task-details {
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task-details p {
+  margin-top: 1rem;
+}
+
+.tasks-status {
+  margin-left: 30rem;
+}
+
+.tasks-status button {
+  margin-top: 5rem;
+  padding: 1rem;
+  width: 12rem;
+  border-radius: 0.5rem;
+  background-color: #04095a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.tasks-status span {
+  font-size: 1.3rem;
+}
+
+.card-main-container {
+  border: 1px solid black;
+}

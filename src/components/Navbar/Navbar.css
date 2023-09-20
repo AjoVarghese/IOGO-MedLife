@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 5px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.logo-div {
+    flex: 0;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    cursor: pointer;
+}
+
+.logo-div img {
+    height: 42px;
+    width: 92px;
+}
+
+.menu-div {
+    text-align: center;
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #7E7E7E;
+}
+
+.menu-div ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu-div li {
+    list-style: none;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.menu-div .clinical {
+    color: #04095A;
+    border-bottom: 2px solid #04095A;
+}
+
+.right-div {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.right-div li {
+    list-style: none;
+    margin: 0 .5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right-div li img {
+    margin-right: .8rem;
+}
+
+.clocked-in {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #04095A;
+    color: #04095A;
+    background-color: white;
+}
+
+.clocked-in span {
+    margin-right: 5px;
+}

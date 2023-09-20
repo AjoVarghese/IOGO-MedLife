@@ -1,0 +1,68 @@
+.main-head {
+    padding: 1rem;
+    display: flex
+}
+
+.apply-clinic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.apply-clinic button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    width: 15rem;
+    border-radius: .5rem;
+    background-color: #04095A;
+    color: white;
+    border: none;
+}
+
+.menu-options {
+    padding: 1rem;
+    margin: 1.5rem 2rem;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+    cursor: pointer;
+
+}
+
+.menu span {
+    margin-right: 1rem;
+}
+
+.menu img {
+    height: 24px;
+    width: 24px;
+}
+
+.menu p {
+    font-size: 1.1rem;
+    margin: 0;
+    display: flex;
+}
+
+.task-menu {
+    background-color: #F8FBFF;
+    width: 100%;
+    padding: 0.3rem;
+    border-right: 2px solid #04095A;
+
+}
+
+.menu p {
+    color: #7E7E7E;
+}
+
+.menu.selected p {
+    color: #04095A;
+}
